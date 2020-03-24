@@ -31,6 +31,7 @@ public class Vihicle {
 	
 	public void moving(int mov) {
 		System.out.println("움직였다.");
+		//toMove
 	}
 }
 
