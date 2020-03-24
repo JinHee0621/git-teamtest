@@ -10,8 +10,8 @@ public class Car extends Vihicle{
 		this.setSpeed(speed);
 		this.setLength(moveLength);
 	}
-	
-	public void moving() {
+	@Override
+	public void moving(int b) {
 		System.out.println(name+"은/는 "+ this.getUsage() + "를 사용하여 " + (this.getSpeed() * this.getMoveLength()) + "만큼 움직였다.");
 	}
 	
