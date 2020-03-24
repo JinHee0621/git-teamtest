@@ -7,8 +7,6 @@ public class Main {
 	public static void main(String[] args) {
 		Car user1 = new Car("±è¾¾", "Æä¶ó¸® ÀÚµ¿Â÷", 120, 100);
 		user1.moving(1);
-		Bicycle user2 = new Bicycle("ÃÖ¾¾", "»ê¾ÇÀÚÀü°Å", 60, 500);
-		user2.moving(10);
 	}
 
 }
