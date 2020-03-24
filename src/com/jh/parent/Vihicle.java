@@ -29,8 +29,9 @@ public class Vihicle {
 		return moveLength;
 	}
 	
-	public void moving() {
+	public void moving(int a) {
 		System.out.println("움직였다.");
+		
 	}
 }
 
